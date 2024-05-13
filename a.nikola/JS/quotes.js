@@ -1,7 +1,7 @@
 let quotes = [];
 
 function loadQuotes() {
-  fetch('https://github.com/Exremum/a.nikola/blob/main/a.nikola/quotes.json')
+  fetch('https://vk.com/away.php?to=https%3A%2F%2Fraw.githubusercontent.com%2FExremum%2Fa.nikola%2Fmain%2Fa.nikola%2Fquotes.json&cc_key=')
     .then(response => response.json())
     .then(data => {
       quotes = data;
